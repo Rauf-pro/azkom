@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
         integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/responsive.css">
+   
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body>
@@ -23,11 +24,11 @@
                 <div class="col-lg-2 col-md-3 col-sm-4 col-4">
                     <a href=""><img src="./assets/img/az-kommunal-logo.svg" alt="logo" class="logo"></a>
                 </div>
-                <div class="col-lg-6 col-md-4 col-sm-2 col-2"></div>
-                <div class="col-lg-4 col-md-5 col-sm-6 col-6">
+                <div class="col-lg-6 col-md-4 col-sm-3 col-4"></div>
+                <div class="col-lg-4 col-md-5 col-sm-5 col-4">
                     <div class="btns__header">
-                        <a href="#" class="register">Qeydiyyatdan keç</a>
-                        <a href="#" class="signin">Daxil ol</a>
+                        <a href="#" class="register" onclick="myFunction()">Qeydiyyat</a>
+                        <a href="#" class="signin" onclick="myFunction()">Daxil ol</a>
                     </div>
                 </div>
             </div>
@@ -45,8 +46,8 @@
                             <h2 class="banner__title">Sadə. Rahat. Təhlükəsiz</h2>
                             <h2 class="banner__subtitle">Kommunal ödənişlərin bir ünvanı!</h2>
                             <div class="banner__btns">
-                                <a href="#" class="banner__register">Qeydiyyatdan keç</a>
-                                <a href="#" class="banner__noregister">Qeydiyyatsız ödə</a>
+                                <a href="#" class="banner__register" onclick="myFunction()">Qeydiyyatdan keç</a>
+                                <a href="#" class="banner__noregister" onclick="myFunction()">Qeydiyyatsız ödə</a>
 
                             </div>
 
@@ -65,22 +66,24 @@
         <!----------------- Partners Overlay ------------------>
 
         <div class="partners__overlay"></div>
-            <div class="container">
-                <div class="partners__content">
+        <div class="container">
+            <div class="partners__content">
                 <div class="row">
-                    <div class="col-lg-7 col-md-5 col-sm-3 col-3">
+                    <div class="col-lg-7 col-md-5 col-sm-3 col-4">
                         <div class="partners__icons">
                             <h2 class="partners__title">Partnyorlarımız:</h2>
                             <div class="partner__logos">
-                                <img src="./assets/img/azerisiq.svg" alt="" class="partner__icon">
-                                <img src="./assets/img/azeriqaz.svg" alt="" class="partner__icon">
-                                <img src="./assets/img/azersu.svg" alt="" class="partner__icon">
+                                <a href="https://www.azerishiq.az/"><img src="./assets/img/azerisiq.svg" alt="" class="partner__icon"></a>
+                                <a href="http://azeriqaz.az/az"><img src="./assets/img/azeriqaz.svg" alt="" class="partner__icon"></a>
+                                <a href="https://www.azersu.az/az"><img src="./assets/img/azersu.svg" alt="" class="partner__icon"></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
 
         <!--------------------- Real Time Section -------------------->
         <section class="realtime__section">
@@ -94,11 +97,13 @@
                             <h2 class="realtime__title">Smart ödənişlər</h2>
                             <h2 class="realtime__subtitle">Real vaxt bildirişləri</h2>
                             <p class="realtime__text">Müştəri hesabında baş verən hər şeydən real vaxt rejimində
-                                xəbərdar olur: ödənişlər, köçürmələr, sərfiyyatlar,məsləhətlər.</p>
+                                xəbərdar olur: ödənişlər, köçürmələr, sərfiyyatlar,məsləhətlər və usta xidmətləri.</p>
                             <h2><i class="fa-solid fa-check"></i> <span class="realtime__checked">Bill Payments ,Funds
                                     Transfer ,QR payments</span></h2>
                             <h2><i class="fa-solid fa-check"></i> <span class="realtime__checked">Bill Payments ,Funds
                                     Transfer ,QR payments</span></h2>
+                            <h2><i class="fa-solid fa-check"></i> <span class="realtime__checked">Bill For
+                                    Friends</span></h2>
 
                         </div>
 
@@ -110,7 +115,7 @@
             </div>
 
         </section>
-
+        <!----------------------------------- Saving Section -------------------------------------->
         <section class="saving__section">
             <div class="container">
                 <div class="row">
@@ -126,7 +131,7 @@
                             <h2 class="saving__subtitle">Qənaət etməyin və sərfiyyatın
                                 izlənməsini təqdim edirik!</h2>
                             <p class="saving__text">Müştəri hesabında baş verən hər şeydən real vaxt rejimində xəbərdar
-                                olur: ödənişlər, köçürmələr, sərfiyyatlar,məsləhətlər.</p>
+                                olur: ödənişlər, köçürmələr, sərfiyyatlar,məsləhətlər və usta xidmətləri</p>
                         </div>
                     </div>
                 </div>
@@ -135,7 +140,7 @@
 
         </section>
 
-        <section class="account__from" style="background: url(./assets/img/bg-image.svg);">
+        <!-- <section class="account__from" style="background: url(./assets/img/bg-image.svg);">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -147,25 +152,25 @@
                     </div>
                 </div>
             </div>
+            <div class="container">
 
-        </section>
-        <div class="container">
-
-            <div class="white__photo__area">
-                <div class="col-lg-4 col-md-3">
-                    <img src="./assets/img/Rectangle 9.svg" alt="" class="empty__photo">
+                <div class="white__photo__area">
+                    <div class="col-lg-4 col-md-3">
+                        <img src="./assets/img/Rectangle 9.svg" alt="" class="empty__photo">
+                    </div>
+                    <div class="col-lg-4 col-md-3">
+                        <img src="./assets/img/Rectangle 9.svg" alt="" class="empty__photo">
+                    </div>
+                    <div class="col-lg-4 col-md-3">
+                        <img src="./assets/img/Rectangle 9.svg" alt="" class="empty__photo">
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-3">
-                    <img src="./assets/img/Rectangle 9.svg" alt="" class="empty__photo">
-                </div>
-                <div class="col-lg-4 col-md-3">
-                    <img src="./assets/img/Rectangle 9.svg" alt="" class="empty__photo">
-                </div>
+    
             </div>
+        </section> -->
 
-        </div>
 
-        <section class="dropdown__area">
+        <!-- <section class="dropdown__area">
             <div class="container">
 
                 <div class="dropdown__content">
@@ -209,29 +214,30 @@
 
             </div>
 
-        </section>
-       <!-- Overlay bg coloro blue -->
-       <section class="overlay__blue__section"> 
+        </section> -->
+        <!-- Overlay bg coloro blue -->
+        <section class="overlay__blue__section">
             <div class="container">
-               <div class="overlay__content__image">
-                <div class="row">
-                    <div class="col-lg-7 col-md-6 col-sm-7 col-6">
-                        <div class="overlay__bg__blue__content__left">
-                            <h2 class="overlay__blue__title">Başlamağa hazırsınız?</h2>
-                            <p class="overlay__blue__subtitle">Hesabınızı qeydiyyatdan keçirməyiniz cəmi bir neçə dəqiqə
-                            çəkir</p>
-                            <button class="overlay__bg__blue__btn__register">Qeydiyyat</button>
+                <div class="overlay__content__image">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-6 col-sm-7 col-6">
+                            <div class="overlay__bg__blue__content__left">
+                                <h2 class="overlay__blue__title">Başlamağa hazırsınız?</h2>
+                                <p class="overlay__blue__subtitle">Hesabınızı qeydiyyatdan keçirməyiniz cəmi bir neçə
+                                    dəqiqə
+                                    çəkir</p>
+                                <button class="overlay__bg__blue__btn__register" onclick="myFunction()" >Qeydiyyat</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 col-sm-5 col-6">
+                            <img src="./assets/img/Image 11.svg" alt="" class="overlay__bg__blue__photo">
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-6 col-sm-5 col-6">
-                        <img src="./assets/img/Image 11.svg" alt="" class="overlay__bg__blue__photo">
-                    </div>
-                </div>
                 </div>
                 <div class="overlay__bg__blue"></div>
-                </div>
-            </section>
-           
+            </div>
+        </section>
+
     </main>
     <footer>
         <div class="footer__top">
@@ -239,11 +245,11 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-2">
                         <div class="footer__logo">
-                           <a href=""> <img src="./assets/img/az-kommunal-logo.svg" alt="" class="footer__logo"></a>
+                            <a href=""> <img src="./assets/img/az-kommunal-logo.svg" alt="" class="footer__logo"></a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-2 col-sm-2 col-1"></div>
-                    <div class="col-lg-6 col-md-8 col-sm-8 col-9">
+                    <div class="col-lg-4 col-md-2 col-sm-1 col-1"></div>
+                    <div class="col-lg-6 col-md-8 col-sm-9 col-9">
                         <div class="footer__nav">
                             <a href="#" class="Link">Haqqımızda</a>
                             <a href="#" class="Link">Məxfilik siyasəti</a>

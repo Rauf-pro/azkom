@@ -1,3 +1,141 @@
+@media screen and (max-width:992px){
+  
+}
 
+@media screen and (min-width: 375px) and (max-width:768px){
+ 
+
+  .dropdown__area{
+      padding-top: 140px;
+  }
+  .saving__content{
+      margin-left: 0;
+  }
+  .partners__overlay{
+      width: 300px;
+      height: 120px;
+      /* top: 105%; */
+  }
+  .partners__icons{
+      gap: 10px;
+
+  }
+  .partner__icon{
+      width: 60px;
+  }
+  .partners__icons{
+      display: flex;
+      flex-direction: column; 
+  }
+  .partner__logos{
+      gap: 15px;
+  }
+
+  
+ 
+
+  
+}
+@media screen and (max-width: 576px){
+  .btns__header{
+      display: flex;
+      flex-direction: column;  
+  }
+  .partners__overlay{
+      width: 300px;
+      height: 110px;
+      
+      
+  }
+  .footer__nav{
+      flex-direction: column;
+      margin-top: 50px;
+  }
+  .signin{
+      padding: 8px 20px;
+  }
+  .partners__title{
+      margin-top: -20px;
+      margin-bottom: 20px;
+  }
+  .overlay__bg__blue__content__left{
+      margin-left: 10px;
+      top: -60px;
+  }
+  .partners__content{
+      
+      top: -120px;
+  }
+  .realtime__section{
+    margin-top: -70px;
+  }
+  .dropdown__area{
+      margin-top: -200px;
+  }
+  .overlay__blue__section{
+      margin-top: -60px;
+  }
+ 
+
+
+
+
+}
+@media screen and (max-width: 480px){
+  .partners__overlay{
+      
+  }
+  .footer__logo{
+      width: 80px;
+  }
+  .footer__nav{
+      flex-direction: column;
+      gap: 15px;
+      justify-content: start; 
+
+  }
+  .saving__content{
+      margin-left: 0;
+  }
+ 
+  .partners__icons{
+      
+  }
+  
+  
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+.overlay__bg__blue__content__left{
+    top: 40px;
+}
+.overlay__content__image{
+  top: 180px;
+}
+.partners__overlay{
+  width: 400px;
+  height: 140px;
+}
+.partners__title{
+   
+   padding-bottom: 10px;
+}
+.partner__icon{
+  width: 70px;
+}
+.partners__icons{
+  display: flex;
+  flex-direction: column; 
+}
+.saving__content{
+  margin-left: 0;
+}
+.white__photo__area{
+    top: -70px;
+    left:82px
+}
+
+  
+}
 
 
